@@ -1,39 +1,35 @@
-/* styles.css */
-
 body {
-  font-family: 'Merriweather', serif;
-  background-color: black;
-  color: white;
+    font-family: 'Merriweather', serif;
+    background-color: black;
+    color: white;
 }
 
 .cnt-txt {
-  text-align: center;
+    text-align: center;
 }
 
 .box {
-  background-color: #1e7c07;
-  padding: 5px;
-  display: inline-block; /* Ensure the rectangle wraps around the text */
+    background-color: #1e7c07;
+    padding: 5px;
+    display: inline-block; /* Ensure the rectangle wraps around the text */
 } 
 
 .navigation {
-  display: flex;
-  justify-content: center; /* Center align the navigation links */
-  padding: 10px; /* Add some padding around the navigation links */
+    display: flex;
 }
 
 .nav-link {
-  padding: 10px;
-  margin-right: 10px;
-  text-decoration: none;
-  color: #5c5c5c;
-  transition: color 0.3s ease;
+    padding: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #5c5c5c;
+    transition: color 0.3s ease;
 }
 
 .nav-link:hover {
-  color: #095a1d;
+    color: #095a1d;
 }
 
 .active {
-  color: rgb(31, 255, 1); /* Change color for active link */
+    color: rgb(31, 255, 1); /* Change color for active link */
 }
