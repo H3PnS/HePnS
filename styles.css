@@ -15,7 +15,8 @@ body {
 } 
 
 .navigation {
-    display: flex;
+  display: flex;
+  justify-content: center; /* Center the navigation links horizontally */
 }
 
 .nav-link {
